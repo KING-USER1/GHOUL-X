@@ -8,8 +8,7 @@
 
 
 ## New version Avaiilable on Telegram as [@GHOUL_UPDATES](https://t.me/GHOUL_UPDATE)
-## DaisyX-v2.0 is the latest
-
+## GhoulXv2.0 is the latest
 
 
 
