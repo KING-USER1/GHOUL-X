@@ -69,7 +69,7 @@ RUN git clone -b shiken https://github.com/KING-USER1/GHOUL-X /root/Ghoulx
 WORKDIR /root/Ghoulx
 
 #Copy config file to /root/Ghoulx/Ghoulx
-COPY ./DaisyX/sample_config.py ./Ghoulx/config.py* /root/Ghoulx/Ghoulx/
+COPY ./Ghoulx/sample_config.py ./Ghoulx/config.py* /root/Ghoulx/Ghoulx/
 
 ENV PATH="/home/bot/bin:$PATH"
 
