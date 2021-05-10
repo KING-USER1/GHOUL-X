@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/DaisyX
-RUN git clone -b shiken https://github.com/Infinity-Bots/LizaDaisyX /root/DaisyX
-WORKDIR /root/DaisyX
+# Copy Python Requirements to /root/Ghoulx
+RUN git clone -b shiken https://github.com/KING-USER1/GHOUL-X /root/Ghoulx
+WORKDIR /root/Ghoulx
 
-#Copy config file to /root/DaisyX/DaisyX
-COPY ./DaisyX/sample_config.py ./DaisyX/config.py* /root/DaisyX/DaisyX/
+#Copy config file to /root/Ghoulx/Ghoulx
+COPY ./DaisyX/sample_config.py ./Ghoulx/config.py* /root/Ghoulx/Ghoulx/
 
 ENV PATH="/home/bot/bin:$PATH"
 
